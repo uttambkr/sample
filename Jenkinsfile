@@ -1,5 +1,5 @@
 pipeline {
-   agent cloud
+   agent label { "cloud" }
    stages {
        stage('example') {
            steps {
